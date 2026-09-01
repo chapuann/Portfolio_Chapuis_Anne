@@ -2461,3 +2461,14 @@ body.dark .grax_tm_settings .cursor li .svg,
 .contact_link:hover {
     text-decoration: underline;
 }
+
+
+/* Alignement du texte du Hero */
+.grax_tm_hero .details {
+    text-align: left;
+}
+
+.grax_tm_hero .details .name,
+.grax_tm_hero .details .job {
+    text-align: left;
+}
