@@ -2420,3 +2420,31 @@ body.dark .grax_tm_settings .cursor li .svg,
     padding-top: 70px;
     padding-bottom: 70px;
 }
+
+/* Simple contact section */
+.contact_simple {
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.contact_intro {
+    margin-bottom: 45px;
+}
+
+.contact_intro p {
+    margin-bottom: 10px;
+}
+
+.contact_item {
+    margin-bottom: 30px;
+}
+
+.contact_item strong {
+    display: block;
+    margin-bottom: 8px;
+}
+
+.contact_item a {
+    display: inline-block;
+}
