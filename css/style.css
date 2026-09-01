@@ -2372,3 +2372,14 @@ body.dark .grax_tm_settings .cursor li .svg,
 	.grax_tm_news .news_list ul{margin: 0px;}
 	.grax_tm_news .news_list ul li{width: 100%;padding-left: 0px;}
 }
+
+
+
+/* Align About photo and title */
+.grax_tm_about .about_inner {
+    align-items: flex-start;
+}
+
+.grax_tm_about .about_inner .right {
+    padding-top: 0 !important;
+}
