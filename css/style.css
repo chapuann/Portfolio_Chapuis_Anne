@@ -2473,18 +2473,26 @@ body.dark .grax_tm_settings .cursor li .svg,
     text-align: left;
 }
 
-/* HERO - alignement à gauche du nom et du sous-titre */
+/* =================================
+   HERO - ALIGNEMENT À GAUCHE
+   ================================= */
+
+.grax_tm_hero.creative .content,
+.grax_tm_hero.creative .content .container {
+    text-align: left !important;
+}
+
 .grax_tm_hero.creative .content .details {
     left: 0 !important;
     right: auto !important;
-    text-align: left !important;
     margin-left: 0 !important;
     margin-right: auto !important;
+    text-align: left !important;
 }
 
 .grax_tm_hero.creative .content .details .name,
 .grax_tm_hero.creative .content .details .job {
-    text-align: left !important;
     margin-left: 0 !important;
     margin-right: 0 !important;
+    text-align: left !important;
 }
