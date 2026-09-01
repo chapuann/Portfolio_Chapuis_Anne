@@ -2448,3 +2448,9 @@ body.dark .grax_tm_settings .cursor li .svg,
 .contact_item a {
     display: inline-block;
 }
+
+/* Contact spacing */
+#contact {
+    padding-top: 40px !important;
+    padding-bottom: 60px !important;
+}
