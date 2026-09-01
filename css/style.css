@@ -2383,3 +2383,34 @@ body.dark .grax_tm_settings .cursor li .svg,
 .grax_tm_about .about_inner .right {
     padding-top: 0 !important;
 }
+
+/* WHAT I DO */
+.what_i_do_list {
+    display: flex;
+    gap: 50px;
+    margin-top: 50px;
+}
+
+.what_i_do_item {
+    flex: 1;
+}
+
+.what_i_do_item h4 {
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.what_i_do_item p {
+    line-height: 1.8;
+}
+
+@media (max-width: 767px) {
+    .what_i_do_list {
+        display: block;
+    }
+
+    .what_i_do_item {
+        margin-bottom: 40px;
+    }
+}
