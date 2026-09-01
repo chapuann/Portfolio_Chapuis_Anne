@@ -2414,3 +2414,9 @@ body.dark .grax_tm_settings .cursor li .svg,
         margin-bottom: 40px;
     }
 }
+
+/* Reduce vertical spacing between sections */
+.grax_tm_section {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
