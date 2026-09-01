@@ -2436,8 +2436,8 @@ body.dark .grax_tm_settings .cursor li .svg,
 
 .contact_simple {
     max-width: 750px;
-    margin: 0 auto;
-    text-align: center;
+    margin: 0;
+    text-align: left;
 }
 
 .contact_intro {
@@ -2450,10 +2450,8 @@ body.dark .grax_tm_settings .cursor li .svg,
 
 .contact_links {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 40px;
-    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 15px;
 }
 
 .contact_link {
@@ -2462,11 +2460,4 @@ body.dark .grax_tm_settings .cursor li .svg,
 
 .contact_link:hover {
     text-decoration: underline;
-}
-
-@media (max-width: 767px) {
-    .contact_links {
-        flex-direction: column;
-        gap: 15px;
-    }
 }
