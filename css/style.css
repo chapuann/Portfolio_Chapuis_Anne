@@ -2421,36 +2421,52 @@ body.dark .grax_tm_settings .cursor li .svg,
     padding-bottom: 60px;
 }
 
-/* Simple contact section */
-.contact_simple {
-    max-width: 700px;
-    margin: 0 auto;
-    text-align: center;
-}
-
-.contact_intro {
-    margin-bottom: 45px;
-}
-
-.contact_intro p {
-    margin-bottom: 10px;
-}
-
-.contact_item {
-    margin-bottom: 30px;
-}
-
-.contact_item strong {
-    display: block;
-    margin-bottom: 8px;
-}
-
-.contact_item a {
-    display: inline-block;
-}
 
 /* Contact spacing */
 #contact {
     padding-top: 40px !important;
     padding-bottom: 60px !important;
+}
+
+/* CONTACT */
+#contact {
+    padding-top: 40px !important;
+    padding-bottom: 70px !important;
+}
+
+.contact_simple {
+    max-width: 750px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.contact_intro {
+    margin-bottom: 35px;
+}
+
+.contact_intro p {
+    margin-bottom: 8px;
+}
+
+.contact_links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.contact_link {
+    font-size: 16px;
+}
+
+.contact_link:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 767px) {
+    .contact_links {
+        flex-direction: column;
+        gap: 15px;
+    }
 }
