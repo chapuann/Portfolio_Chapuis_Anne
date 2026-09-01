@@ -2417,8 +2417,8 @@ body.dark .grax_tm_settings .cursor li .svg,
 
 /* Reduce vertical spacing between sections */
 .grax_tm_section {
-    padding-top: 70px;
-    padding-bottom: 70px;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 /* Simple contact section */
