@@ -2463,29 +2463,7 @@ body.dark .grax_tm_settings .cursor li .svg,
 }
 
 
-/* =================================
-   HERO - TEXTE À GAUCHE
-   ================================= */
 
-.grax_tm_hero .details {
-    position: absolute;
-    top: 50%;
-    left: 40px;
-    right: auto;
-    transform: translateY(-50%);
-    text-align: left;
-}
-
-.grax_tm_hero .details .name,
-.grax_tm_hero .details .job {
-    text-align: left;
-    margin-left: 0;
-    margin-right: 0;
-}
-
-.grax_tm_hero .details .job {
-    display: block;
-}
 
 /* Tablette et mobile */
 @media (max-width: 1040px) {
