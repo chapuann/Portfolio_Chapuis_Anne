@@ -2482,3 +2482,37 @@ body.dark .grax_tm_settings .cursor li .svg,
 .grax_tm_service .service_list li {
     margin-bottom: 8px;
 }
+
+/* =================================
+   HERO - ALIGNEMENT À GAUCHE
+   ================================= */
+
+.grax_tm_hero .details {
+    position: absolute !important;
+    top: 50% !important;
+    left: 40px !important;
+    right: auto !important;
+    width: auto !important;
+    transform: translateY(-50%) !important;
+    text-align: left !important;
+}
+
+.grax_tm_hero .details .name {
+    text-align: left !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
+.grax_tm_hero .details .job {
+    display: block !important;
+    text-align: left !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
+/* Écrans plus petits */
+@media (max-width: 1040px) {
+    .grax_tm_hero .details {
+        left: 20px !important;
+    }
+}
