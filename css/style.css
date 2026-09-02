@@ -2483,40 +2483,4 @@ body.dark .grax_tm_settings .cursor li .svg,
     margin-bottom: 8px;
 }
 
-/* =================================
-   HERO - ALIGNÉ À GAUCHE DE L'ÉCRAN
-   ================================= */
 
-.grax_tm_hero .details {
-    position: absolute !important;
-    top: 50% !important;
-    left: 0 !important;
-    right: auto !important;
-    width: auto !important;
-    transform: translateY(-50%) !important;
-    text-align: left !important;
-}
-
-/* Texte du Hero */
-.grax_tm_hero .details .name,
-.grax_tm_hero .details .job {
-    text-align: left !important;
-    margin-left: 0 !important;
-    margin-right: 0 !important;
-}
-
-/* Sur desktop : même marge que le contenu du site */
-.grax_tm_hero .container {
-    padding-left: 40px !important;
-}
-
-/* Tablette / mobile */
-@media (max-width: 1040px) {
-    .grax_tm_hero .container {
-        padding-left: 20px !important;
-    }
-
-    .grax_tm_hero .details {
-        left: 0 !important;
-    }
-}
