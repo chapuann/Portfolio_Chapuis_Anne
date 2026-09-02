@@ -2493,3 +2493,14 @@ body.dark .grax_tm_settings .cursor li .svg,
         left: 20px;
     }
 }
+
+/* What I do - bullet lists */
+
+.grax_tm_service .service_list ul {
+    margin: 0;
+    padding-left: 20px;
+}
+
+.grax_tm_service .service_list li {
+    margin-bottom: 8px;
+}
