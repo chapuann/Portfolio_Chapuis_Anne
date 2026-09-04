@@ -2483,6 +2483,13 @@ body.dark .grax_tm_settings .cursor li .svg,
     margin-bottom: 8px;
 }
 
+.portfolio_subtitle {
+	margin-top: 60px;
+	margin-bottom: 25px;
+}
 
+.portfolio_subtitle:first-of-type {
+	margin-top: 0;
+}
 
 
