@@ -2510,3 +2510,8 @@ body.dark .grax_tm_settings .cursor li .svg,
     float: left;
 }
 
+.details p {
+    color: #fff;
+    font-size: 14px;
+    margin-top: 5px;
+}
