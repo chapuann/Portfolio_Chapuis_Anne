@@ -2492,4 +2492,21 @@ body.dark .grax_tm_settings .cursor li .svg,
 	margin-top: 0;
 }
 
+/* PORTFOLIO CATEGORIES */
+
+.portfolio_subtitle {
+    clear: both;
+    width: 100%;
+    float: left;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.grax_tm_portfolio .portfolio_list > ul {
+    clear: both;
+    width: 100%;
+    float: left;
+}
 
