@@ -31,14 +31,14 @@ html {
 	margin: 0px
 }
 body{
-	font-family: "Mulish";
+	font-family: "Inter";
 	font-size: 15px;
 	line-height: 30px;
 	letter-spacing: 1px;
 	word-wrap: break-word;
 	font-weight: 400;
 	background-color: #fff;
-	color: #767676;
+	color: #4a6572;
 }
 svg{
 	fill: currentcolor;
