@@ -2515,3 +2515,52 @@ body.dark .grax_tm_settings .cursor li .svg,
     font-size: 14px;
     margin-top: 5px;
 }
+
+/* CV TIMELINE - About Me */
+.cv_timeline {
+	position: relative;
+	padding-left: 24px;
+	margin-top: 10px;
+	margin-bottom: 27px;
+}
+.cv_timeline:before {
+	content: "";
+	position: absolute;
+	left: 5px;
+	top: 6px;
+	bottom: 6px;
+	width: 2px;
+	background-color: #6FA8C0;
+}
+.cv_timeline_item {
+	position: relative;
+	margin-bottom: 20px;
+}
+.cv_timeline_item:last-child {
+	margin-bottom: 0px;
+}
+.cv_timeline_item:before {
+	content: "";
+	position: absolute;
+	left: -24px;
+	top: 4px;
+	width: 12px;
+	height: 12px;
+	border-radius: 50%;
+	background-color: #0F2A3D;
+	border: 2px solid #fff;
+}
+.cv_timeline_item:first-child:before {
+	background-color: #FF9907;
+}
+.cv_timeline_year {
+	font-family: "Poppins";
+	font-weight: 600;
+	color: #0F2A3D;
+	display: block;
+	margin-bottom: 2px;
+}
+.cv_timeline_item p {
+	margin: 0;
+	font-size: 14px;
+}
