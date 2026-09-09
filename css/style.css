@@ -2522,18 +2522,10 @@ body.dark .grax_tm_settings .cursor li .svg,
 	float: left;
 	width: 100%;
 	clear: both;
-	padding-left: 24px;
 	margin-top: 10px;
 	margin-bottom: 27px;
-}
-.cv_timeline:before {
-	content: "";
-	position: absolute;
-	left: 5px;
-	top: 6px;
-	bottom: 6px;
-	width: 2px;
-	background-color: #6FA8C0;
+	padding-left: 24px;
+	border-left: 2px solid #6FA8C0;
 }
 .cv_timeline_item {
 	position: relative;
@@ -2545,7 +2537,7 @@ body.dark .grax_tm_settings .cursor li .svg,
 .cv_timeline_item:before {
 	content: "";
 	position: absolute;
-	left: -24px;
+	left: -30px;
 	top: 4px;
 	width: 12px;
 	height: 12px;
