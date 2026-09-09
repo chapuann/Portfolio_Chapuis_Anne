@@ -1509,7 +1509,7 @@ body.modal{
 }
 .grax_tm_contact .info_list ul li a{
 	text-decoration: none;
-	color: inherit !important;
+	color: #ff9907 !important;
 	transition: all .3s ease;
 	display: inline-block;
 	position: relative;
@@ -1531,7 +1531,7 @@ body.modal{
 	left:0;
 	right:auto;
 }
-.grax_tm_contact .info_list ul li a:hover{color: #000 !important;}
+.grax_tm_contact .info_list ul li a:hover{color: #ffcc83 !important;}
 .grax_tm_contact .info_list ul li .svg{
 	width: 15px;
 	height: 15px;
