@@ -2591,3 +2591,10 @@ body.dark .grax_tm_settings .cursor li .svg,
 	color: #CC7A06;
 	text-decoration: underline;
 }
+
+.portfolio_download a{
+	color: #FF9907; /* Accent principal */
+}
+.portfolio_download a:hover{
+	color: #CC7A06; /* Texte sur clair */
+}
