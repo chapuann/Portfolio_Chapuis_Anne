@@ -2574,3 +2574,20 @@ body.dark .grax_tm_settings .cursor li .svg,
 		margin-bottom: 0;
 	}
 }
+
+/* Liens de contact — cohérence avec les boutons */
+.grax_tm_contact .info_list ul li a{
+	color: #FF9907 !important; /* Accent principal */
+}
+.grax_tm_contact .info_list ul li a:hover{
+	color: #CC7A06 !important; /* Texte sur clair, plus foncé au survol */
+}
+
+/* Liens simples (contact_link, etc.) */
+.contact_link{
+	color: #FF9907;
+}
+.contact_link:hover{
+	color: #CC7A06;
+	text-decoration: underline;
+}
